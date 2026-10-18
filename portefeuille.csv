@@ -1,0 +1,26 @@
+﻿client;produit;emetteur;type;devise;nominal;valorisation;barriere_capital;niveau_actuel
+Famille A;Phoenix Atlas 2031;Banque Alpha;Phoenix;EUR;100000;96500;60;82
+Famille A;Autocall Horizon 2029;Orion Capital;Autocall;EUR;150000;153200;70;94
+Famille A;Reverse Zenith USD 2028;Nordia Bank;Reverse;USD;80000;71400;65;68
+Famille A;Indexation Boreal 2030;Banque Alpha;Indexation;EUR;50000;52800;100;108
+Holding M;Phoenix Atlas 2031;Banque Alpha;Phoenix;EUR;250000;241000;60;82
+Holding M;Autocall Cassini 2028;Valmont Securities;Autocall;EUR;200000;206500;65;97
+Holding M;Phoenix Lumen 2032;Orion Capital;Phoenix;EUR;120000;118300;60;76
+Holding M;Capital Protege Aurore 2033;Nordia Bank;Autres;EUR;100000;104000;100;112
+M. Monsieur;Reverse Zenith 2027;Nordia Bank;Reverse;EUR;60000;55200;65;71
+M. Monsieur;Phoenix Lumen 2032;Orion Capital;Phoenix;EUR;90000;88700;60;76
+M. Monsieur;Autocall Horizon 2029;Orion Capital;Autocall;EUR;70000;71900;70;94
+Mme B;Indexation Boreal 2030;Banque Alpha;Indexation;EUR;40000;43100;100;108
+Mme B;Phoenix Atlas 2031;Banque Alpha;Phoenix;EUR;80000;77200;60;82
+Mme B;Autocall Cassini 2028;Valmont Securities;Autocall;EUR;50000;51800;65;97
+Mme B;Phoenix Corvus CHF 2030;Helvetia Structures;Phoenix;CHF;60000;57900;55;63
+SCI I;Autocall Horizon 2029;Orion Capital;Autocall;EUR;300000;309800;70;94
+SCI I;Phoenix Lumen 2032;Orion Capital;Phoenix;EUR;180000;176500;60;76
+SCI I;Capital Protege Aurore 2033;Nordia Bank;Autres;EUR;150000;156200;100;112
+SCI I;Reverse Zenith 2027;Nordia Bank;Reverse;EUR;100000;92300;65;71
+Famille O;Phoenix Atlas USD 2031;Banque Alpha;Phoenix;USD;200000;194500;60;79
+Famille O;Autocall Cassini USD 2029;Valmont Securities;Autocall;USD;150000;;65;88
+Famille O;Indexation Boreal 2030;Banque Alpha;Indexation;EUR;70000;74500;100;108
+Famille O;Phoenix Corvus CHF 2030;Helvetia Structures;Phoenix;CHF;90000;88200;55;63
+Holding M;Reverse Zenith 2027;Nordia Bank;Reverse;EUR;50000;46800;65;71
+M. Monsieur;Capital Protege Aurore 2033;;Autres;EUR;80000;83400;100;112
