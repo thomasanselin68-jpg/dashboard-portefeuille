@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard Portefeuille</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Dashboard Portefeuille</h1>
+            <div class="controls">
+                <input type="file" id="fileInput" accept=".csv">
+                <input type="text" id="searchInput" placeholder="Filtrer par client...">
+            </div>
+        </header>
+
+        <main id="dashboard" style="display: none;">
+            <!-- KPIs : Nombres de lignes, Nominal, Valorisation -->
+            <section class="kpis">
+                <div class="kpi">Lignes : <span id="kpi-count">0</span></div>
+                <div class="kpi">Nominal Total : <span id="kpi-nominal">0</span></div>
+                <div class="kpi">Valorisation Totale : <span id="kpi-valo">0</span></div>
+            </section>
+
+            <!-- Encadrés : Données manquantes et Surveillance barrière -->
+            <section class="alerts">
+                <div id="missing-data-box" class="alert-box error" style="display: none;"></div>
+                <div id="barrier-alert-box" class="alert-box warning" style="display: none;"></div>
+            </section>
+
+            <!-- Répartition par type (Texte simple pour rester sobre) -->
+            <section class="repartition">
+                <h3>Répartition par type de produit</h3>
+                <div id="type-repartition-content"></div>
+            </section>
+
+            <!-- Tableau des positions -->
+            <section class="table-container">
+                <table id="positions-table">
+                    <thead>
+                        <tr>
+                            <th>Client</th>
+                            <th>Produit</th>
+                            <th>Émetteur</th>
+                            <th>Type</th>
+                            <th>Devise</th>
+                            <th>Nominal</th>
+                            <th>Valorisation</th>
+                            <th>Barrière (%)</th>
+                            <th>Niveau Actuel (%)</th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+            </section>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
